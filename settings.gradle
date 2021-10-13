@@ -1,3 +1,2 @@
 include ':common3'
-include ':Utils1:common1'
 rootProject.name = "Android_Common_Utis_3"

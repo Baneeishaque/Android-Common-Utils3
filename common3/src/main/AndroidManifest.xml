@@ -1,1 +1,14 @@
-<manifest package="ndk.utils_android3" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+package="ndk.utils_android3">
+
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.CALL_PHONE" />
+
+<application
+    android:networkSecurityConfig="@xml/clear_text_traffic_permitted_network_security_config"
+    tools:targetApi="n" />
+
+</manifest>

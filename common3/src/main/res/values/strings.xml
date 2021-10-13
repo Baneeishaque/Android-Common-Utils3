@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">common3</string>
+    <string name="call_permission_required">Call Permission is required…</string>
+</resources>
